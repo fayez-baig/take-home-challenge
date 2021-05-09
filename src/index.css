@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Gordita-Regular";
+  src: url("./assets/font/Gordita-Regular.otf");
+}
+
+@font-face {
+  font-family: "Gordita-Bold";
+  src: url("./assets/font/Gordita-Bold.otf");
+}
+
+body {
+  margin: 0;
+  font-family: "Gordita-Regular", sans-serif;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  overflow-x: hidden;
+}

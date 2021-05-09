@@ -1,0 +1,91 @@
+.job-offer {
+  width: 85.41%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.job-offer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 36px;
+}
+.job-offer__left {
+  text-align: left;
+  font-family: "Gordita-Bold";
+  display: inline-block;
+  font-weight: 600;
+  font-size: 46px;
+  /* font: normal normal bold 48px/64px Manrope; */
+  color: #141414;
+  line-height: 64px;
+  letter-spacing: 0px;
+  color: #141414;
+  opacity: 1;
+  letter-spacing: 0px;
+}
+.job-offer__right {
+  font-family: "Gordita-Regular";
+  font-size: 18px;
+  line-height: 24px;
+  display: inline-block;
+  color: #276ffb;
+  opacity: 1;
+  text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .job-offer__left {
+    font-size: 36px;
+  }
+  .job-offer__right {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 427px) {
+  .job-offer__left {
+    font-size: 20px;
+    line-height: unset;
+  }
+  .job-offer__right {
+    font-size: 12px;
+  }
+  .arrow-btn {
+    bottom: 42px;
+    height: 34px;
+    width: 34px;
+  }
+  .job-offer {
+    margin-top: 44px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .arrow-btn {
+    bottom: 35px;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .job-offer__left {
+    font-size: 16px;
+    line-height: unset;
+  }
+  .job-offer__right {
+    font-size: 10px;
+  }
+  .arrow-btn {
+    bottom: 47px;
+    height: 27px;
+    width: 27px;
+  }
+  .job-offer {
+    margin-top: 44px;
+  }
+  .job-card-subtitle,
+  .job-card-location,
+  .job-card-description {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,46 @@
+.featured-section {
+  width: 85.41%;
+  margin: 70px auto 0;
+}
+
+.company-icon-box {
+  width: 91px;
+  height: 91px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #b9b9b9;
+  border-radius: 87px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.com {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.company-title {
+  display: inline-block;
+}
+.company__wrapper {
+  display: inline-block;
+  width: 146px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 320px) {
+  .com {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .featured-companies-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .company__wrapper {
+    margin-bottom: 20px;
+  }
+}
